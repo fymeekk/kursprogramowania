@@ -1,0 +1,216 @@
+html,body,header{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+#menu1{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 5vw;
+    background-color: #24252B;
+    position: fixed;
+    top:0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 5px 5px rgb(0, 0, 0, 0.4)
+}
+h3{
+    padding: 1em;
+    color: whitesmoke;
+    letter-spacing: 3px;
+}
+ul,li{
+    list-style: none;
+    display: flex;
+    padding: 1em;
+    margin: 0;
+}
+li{
+    cursor: pointer;
+    transition: all, 0.1s ease-in-out;
+    margin: 0.5em;
+    padding: 10px 15px;
+    color: whitesmoke;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#li1:hover{
+    background-color: olivedrab;
+    color: #24252B;
+}
+#li2:hover{
+    background-color: olivedrab;
+    color: #24252B;
+}
+#li3:hover{
+    background-color: olivedrab;
+    color: #24252B;
+}
+#li4:hover{
+    background-color: olivedrab;
+    color: #24252B;
+}
+#htmlnapis{
+    font-weight: bold;
+    font-size: 30px;
+    color:#24252B;
+    margin-left: 300px;
+    position: absolute;
+    left:20px;
+    top:195px;
+}
+#stronaglowna{
+    position: absolute;
+    top:150px;
+    color:#24252B;
+    text-decoration: none;
+    margin-left: 300px;
+}
+#stronaglowna:hover{
+    color:olivedrab;
+}
+#kreska{
+    position: absolute;
+    top: 133px;
+    left: 130px;
+    color: olivedrab;
+    margin-left: 300px;
+}
+#htmlkurs{
+    position: absolute;
+    top:150px;
+    left:160px;
+    color:#24252B;
+    text-decoration: none;
+    margin-left: 300px;
+}
+#htmlkurs:hover{
+    color:olivedrab;
+}
+#selectmiasta{
+    margin: 270px 0 0 850px;
+    position: absolute;
+    top:80px;
+    height: 40px;
+    color: #24252B;
+    border-style: solid;
+    border-color: #dddddd;
+}
+#obrazek1{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    left:300px;
+    top:300px;
+    background-color:rgb(216, 216, 216);
+    border-style: solid;
+    border-color:rgb(100, 100, 100);
+}
+#hr1{
+    margin: 270px 300px 000px 300px;
+}
+#miasto{
+    margin: 270px 0 0 850px;
+    position: absolute;
+    top: 50px;
+    font-weight: 650;
+}
+#tryb{
+    margin: 270px 0 0 850px;
+    position: absolute;
+    top: 140px;
+    font-weight: 650;
+}
+#selecttryb{
+    margin: 270px 0 0 850px;
+    position: absolute;
+    top:170px;
+    height: 40px;
+    color: #24252B;
+    border-style: solid;
+    border-color: #dddddd;
+}
+#rozpoczecie{
+    margin: 270px 0 0 850px;
+    position: absolute;
+    top: 230px;
+    font-weight: 650;
+}
+#datarozpoczecia{
+    margin: 270px 0 0 850px;
+    position: absolute;
+    top:260px;
+    height: 40px;
+    color: #24252B;
+    border-style: solid;
+    border-color: #dddddd;
+}
+#pakiet{
+    margin: 270px 0 0 850px;
+    position: absolute;
+    top: 320px;
+    font-weight: 650;
+}
+#pakietselect{
+    margin: 270px 0 0 850px;
+    position: absolute;
+    top:350px;
+    height: 40px;
+    color: #24252B;
+    border-style: solid;
+    border-color: #dddddd;
+}
+#rodzajplatnosci{
+    margin: 270px 0 0 850px;
+    position: absolute;
+    top: 410px;
+    font-weight: 650;
+}
+#rodzajplatnosciselect{
+    margin: 270px 0 0 850px;
+    position: absolute;
+    top:440px;
+    height: 40px;
+    color: #24252B;
+    border-style: solid;
+    border-color: #dddddd;
+}
+#cena{
+    margin: 270px 0 0 850px;
+    position:absolute;
+    top:500px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#cenabrutto{
+    margin: 270px 0 0 850px;
+    font-size: 13px;
+    color:grey;
+    position:absolute;
+    top:518px;
+    left:178px;
+}
+#przyciskkup{
+    margin: 270px 0 0 850px;
+    position: absolute;
+    top:570px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: olivedrab;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 50px;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+a{
+    color:white;
+    text-decoration: none;
+}

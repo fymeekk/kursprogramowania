@@ -1,0 +1,263 @@
+html,body,header{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+#menu1{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 5vw;
+    background-color: #24252B;
+    position: fixed;
+    top:0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 5px 5px rgb(0, 0, 0, 0.4)
+}
+h3{
+    padding: 1em;
+    color: whitesmoke;
+    letter-spacing: 3px;
+}
+ul,li{
+    list-style: none;
+    display: flex;
+    padding: 1em;
+    margin: 0;
+}
+li{
+    cursor: pointer;
+    transition: all, 0.1s ease-in-out;
+    margin: 0.5em;
+    padding: 10px 15px;
+    color: whitesmoke;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#li1:hover{
+    background-color: olivedrab;
+    color: #24252B;
+}
+#li2:hover{
+    background-color: olivedrab;
+    color: #24252B;
+}
+#li3:hover{
+    background-color: olivedrab;
+    color: #24252B;
+}
+#li4:hover{
+    background-color: olivedrab;
+    color: #24252B;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#regulamin{
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 1300px;
+    height: 850px;
+    position: absolute;
+    top:300px;
+}
+#stronaglowna{
+    position: absolute;
+    top:150px;
+    color:#24252B;
+    text-decoration: none;
+    margin-left: 300px;
+}
+#stronaglowna:hover{
+    color: olivedrab;
+}
+#kreska{
+    position: absolute;
+    top: 133px;
+    left: 130px;
+    color: #24252B;
+    margin-left: 300px;
+}
+#onas{
+    position: absolute;
+    top:150px;
+    left:160px;
+    color:#24252B;
+    text-decoration: none;
+    margin-left: 300px;
+}
+#onas:hover{
+    color: olivedrab;
+}
+#stopka{
+    width: 100%;
+    height: 500px;
+    background-color: #24252B;
+    position: absolute;
+    top:1500px;
+}
+#kusrprogramowania1{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top:75px;
+    margin-left: 200px;
+    color: whitesmoke;
+}
+#a1{
+    color:whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top:175px;
+    left:250px;
+}
+#a1:hover{
+    letter-spacing: 0.5px;
+    color: olivedrab;
+}
+#a2{
+    color:whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top:225px;
+    left:250px;
+}
+#a2:hover{
+    letter-spacing: 0.5px;
+    color: olivedrab;
+}
+#a3{
+    color:whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top:275px;
+    left:250px;
+}
+#a3:hover{
+    letter-spacing: 0.5px;
+    color: olivedrab;
+}
+#a4{
+    color:whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top:325px;
+    left:250px;
+}
+#a4:hover{
+    letter-spacing: 0.5px;
+    color: olivedrab;
+}
+#kontakt1{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top:75px;
+    margin-left:650px;
+    color: whitesmoke;
+}
+#naszafirma{
+    position:relative;
+    top: 75px;
+    margin-left: 600px;
+    font-size: 20px;
+    color:whitesmoke;
+    font-weight: bold;
+}
+#a5{
+    position: absolute;
+    top:225px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-weight: bold;
+    color:whitesmoke;
+    text-decoration: none;
+}
+#a5:hover{
+    letter-spacing: 0.5px;
+    color: olivedrab;
+}
+#a6{
+    position: absolute;
+    top:275px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-weight: bold;
+    color:whitesmoke;
+    text-decoration: none;
+}
+#a6:hover{
+    letter-spacing: 0.5px;
+    color: olivedrab;
+}
+#a7{
+    position: absolute;
+    top:325px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-weight: bold;
+    color:whitesmoke;
+    text-decoration: none;
+}
+#a7:hover{
+    letter-spacing: 0.5px;
+    color: olivedrab;
+}
+#informacje21{
+    position:relative;
+    top: 28px;
+    margin-left: 1100px;
+    font-size: 20px;
+    color:whitesmoke;
+    font-weight: bold;
+}
+#p7{
+    position:relative;
+    top: 248px;
+    margin-left: 250px;
+    font-size: 20px;
+    color:whitesmoke;
+    font-weight: bold;
+}
+#p8{
+    position:relative;
+    top: 200px;
+    margin-left: 600px;
+    font-size: 20px;
+    color:whitesmoke;
+    font-weight: bold;
+}
+#mapa{
+    position: absolute;
+    top:90px;
+    right: 200px;
+}
+#tlo7{
+    width: 650px;
+    height: 400px;
+    background-color: olivedrab;
+    position: absolute;  
+    top:65px;
+    right: 175px;
+}
+#ramkaregulamin{
+    margin-left: 275px;
+    margin-right: 250px;
+    width: 1350px;
+    height: 900px;
+    background-color: olivedrab;
+    position: absolute;
+    top:275px;
+}

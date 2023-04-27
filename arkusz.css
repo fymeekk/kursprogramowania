@@ -1,0 +1,1022 @@
+html,body,header{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+#menu1{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 5vw;
+    background-color: #24252B;
+    position: fixed;
+    top:0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 5px 5px rgb(0, 0, 0, 0.4)
+}
+h3{
+    padding: 1em;
+    color: whitesmoke;
+    letter-spacing: 3px;
+}
+ul,li{
+    list-style: none;
+    display: flex;
+    padding: 1em;
+    margin: 0;
+}
+li{
+    cursor: pointer;
+    transition: all, 0.1s ease-in-out;
+    margin: 0.5em;
+    padding: 10px 15px;
+    color: whitesmoke;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#li1:hover{
+    background-color: olivedrab;
+    color: #24252B;
+}
+#li2:hover{
+    background-color: olivedrab;
+    color: #24252B;
+}
+#li3:hover{
+    background-color: olivedrab;
+    color: #24252B;
+}
+#li4:hover{
+    background-color: olivedrab;
+    color: #24252B;
+}
+#p1{
+    position: absolute;
+    top:150px;
+    margin-left: 200px; 
+    font-weight: bold;
+    font-size: 30px;
+}
+#p2{
+    position: absolute;
+    top:250px;
+    margin-left: 200px;
+    font-weight: 600;
+}
+#htmlzdj{
+    position: absolute;
+    top:255px;
+    right: 800px;
+}
+#csszdj{
+    position: absolute;
+    top:235px;
+    right:600px;
+}
+#jszdj{
+    position: absolute;
+    top:275px;
+    right: 370px;
+}
+#phpzdj{
+    position: absolute;
+    top:275px;
+    right: 150px;
+}
+#p3{
+    position: absolute;
+    top:220px;
+    right:865px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#p4{
+    position: absolute;
+    top:220px;
+    right:655px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+#p5{
+    position: absolute;
+    top:220px;
+    right:370px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#p6{
+    position: absolute;
+    top:220px;
+    right:200px;
+    font-weight: bold;
+    font-size: 25px;
+}
+img{
+    border-radius: 20px;
+}
+#obraz1{
+    width: 368px;
+    height: 450px;
+    position: absolute;
+    top:1100px;
+    left:200px;
+    border-style: none;
+    border-color: #24252B;
+    border-radius: 20px;
+    background-color: #24252B;
+}
+#obraz2{
+    width: 368px;
+    height: 450px;
+    position: absolute;
+    top:1100px;
+    left:800px;
+    border-radius: 20px;
+    border-style: none;
+    border-color: #24252B;
+    border-radius: 20px;
+    background-color: #24252B;
+}
+#obraz3{
+    width: 368px;
+    height: 450px;
+    position: absolute;
+    top:1100px;
+    left:1400px;
+    border-radius: 20px;
+    border-style: none;
+    border-color: #24252B;
+    border-radius: 20px;
+    background-color: #24252B;
+}
+#obr1np{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:justify;
+    color: whitesmoke;
+}
+#obr1t2{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+#obr2np{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:justify;
+    color: whitesmoke;
+}
+#obr2t2{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+#obr3np{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:justify;
+    color: whitesmoke;
+}
+#obr3t2{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+#pasek1{
+    width: 100%;
+    height: 300px;
+    background-color:#24252B;
+    position: absolute;
+    top:600px;
+    left:0px;
+}
+#wyroznienie{
+    margin-top: 60px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 50px;
+}
+#wyroznieniet{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+#div11{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top:1600px;
+    left:0px;
+    align-items: center;
+}
+#dlaczegokurs{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+#textkurs{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+#obraz4{
+    width: 368px;
+    height: 400px;
+    position: absolute;
+    top:2000px;
+    left:200px;
+    border-style: none;
+    border-color: #24252B;
+    border-radius: 20px;
+    background-color: #24252B;
+}
+#obr4t1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+    color: whitesmoke;
+}
+#obr4t2{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+#obraz5{
+    width: 368px;
+    height: 400px;
+    position: absolute;
+    top:2000px;
+    left:800px;
+    border-style: none;
+    border-color: #24252B;
+    border-radius: 20px;
+    background-color: #24252B;
+}
+#obr5t1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+    color: whitesmoke;
+}
+#obr5t2{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+#obraz6{
+    width: 368px;
+    height: 400px;
+    position: absolute;
+    top:2000px;
+    left:1400px;
+    border-style: none;
+    border-color: #24252B;
+    border-radius: 20px;
+    background-color: #24252B;
+}
+#obr6t1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+    color: whitesmoke;
+}
+#obr6t2{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+#opiswszystkiego{
+    width: 100%;
+    height: 300px;
+    background-color: #24252B;
+    position: absolute;
+    top: 2600px;
+    left:0px;
+    color: whitesmoke;
+}
+#opiswsz{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+#opisreszty{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+#htmlodpis{
+    width: 750px;
+    height: 600px;
+    background-color: #24252B;
+    position: absolute;
+    top:3000px;
+    left:600px;
+    border-radius: 20px;
+}
+#cotohtml{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}   
+#htmlops{
+    text-align:justify;
+    color: whitesmoke;
+    margin: 0px 20px 0px 20px;
+}
+#cssopis{
+    width: 750px;
+    height: 350px;
+    background-color: #24252B;
+    position: absolute;
+    top:3700px;
+    left: 600px;
+    border-radius: 20px;
+}
+#cotocss{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+#cssops{
+    text-align:justify;
+    color: whitesmoke;
+    margin: 0px 20px 0px 20px;
+}
+#jsopis{
+    width: 750px;
+    height: 250px;
+    background-color: #24252B;
+    position: absolute;
+    top:4150px;
+    left: 600px;
+    border-radius: 20px;
+}
+#cotojs{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+#jsops{
+    text-align:justify;
+    color: whitesmoke;
+    margin: 0px 20px 0px 20px;
+}
+#phpopis{
+    width: 750px;
+    height: 350px;
+    background-color: #24252B;
+    position: absolute;
+    top:4500px;
+    left: 600px;
+    border-radius: 20px;
+}
+#cotophp{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+#phpops{
+    color: whitesmoke;
+    text-align: justify;
+    margin: 0 20px 0 20px;
+}
+#dlakogotojestdiv{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top:4900px;
+}
+#dlakogotojest{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+#dlakogotojestodp{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+#obraz7{
+    width: 368px;
+    height: 450px;
+    position: absolute;
+    top:5200px;
+    left:200px;
+    border-radius: 20px;
+    border-style: none;
+    border-color: #24252B;
+    border-radius: 20px;
+    background-color: #24252B;
+}
+#obr7t1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+    color: whitesmoke;
+    position: relative;
+    top:10px;
+}
+#obr7t2{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: whitesmoke;
+    position: relative;
+    top:30px;
+}
+#obraz8{
+    width: 368px;
+    height: 450px;
+    position: absolute;
+    top:5200px;
+    left:800px;
+    border-radius: 20px;
+    border-style: none;
+    border-color: #24252B;
+    border-radius: 20px;
+    background-color: #24252B;
+}
+#obr8t1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+    color: whitesmoke;
+    position: relative;
+    top:10px;
+}
+#obr8t2{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: whitesmoke;
+    position: relative;
+    top:30px;
+}
+#obraz9{
+    width: 368px;
+    height: 450px;
+    position: absolute;
+    top:5200px;
+    left:1400px;
+    border-radius: 20px;
+    border-style: none;
+    border-color: #24252B;
+    border-radius: 20px;
+    background-color: #24252B;
+}
+#obr9t1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+    color: whitesmoke;
+}
+#obr9t2{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+#kolko1{
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: olivedrab;
+    border-radius: 100%;
+    position: absolute;
+    top:3050px;
+    left:-250px;
+}
+#kolko2{
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: #24252B;
+    border-radius: 100%;
+    position: absolute;
+    top:3250px;
+    left:0px;
+}
+#kolko3{
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: olivedrab;
+    border-radius: 100%;
+    position: absolute;
+    top:3650px;
+    right:300px;
+}
+#kolko4{
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: #24252B;
+    border-radius: 100%;
+    position: absolute;
+    top:3850px;
+    right:60px;
+}
+#kolko5{
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: olivedrab;
+    border-radius: 100%;
+    position: absolute;
+    top:4050px;
+    left:-250px;
+}
+#kolko6{
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: #24252B;
+    border-radius: 100%;
+    position: absolute;
+    top:4250px;
+    left:0px;
+}
+#kolko7{
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: olivedrab;
+    border-radius: 100%;
+    position: absolute;
+    top:4750px;
+    right:300px;
+}
+#kolko8{
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: #24252B;
+    border-radius: 100%;
+    position: absolute;
+    top:4650px;
+    right:60px;
+}
+
+#popularnekursy{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+#kurshtml{
+    width: 368px;
+    height: 630px;
+    position: absolute;
+    top:6200px;
+    left:200px;
+    border-radius: 20px;
+    border-style: none;
+    border-color: #24252B;
+    border-radius: 20px;
+    background-color: #24252B;
+}
+#kurshtml1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+    color: white;
+}
+#kurshtmlzdj{
+    position: relative;
+    left:85px;
+    top:18px;
+}
+#kurshtml2{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+#button{
+    position: absolute;
+    left: 115px;
+    top:530px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: olivedrab;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+#kurscss{
+    width: 368px;
+    height: 630px;
+    position: absolute;
+    top:6200px;
+    left:600px;
+    border-radius: 20px;
+    border-style: none;
+    border-color: #24252B;
+    border-radius: 20px;
+    background-color: #24252B;
+}
+#kurscss1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+    color: white;
+}
+#kurscsszdj{
+    position: relative;
+    left:110px;
+}
+#kurscss2{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+#button2{
+    position: absolute;
+    left: 115px;
+    top:530px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: olivedrab;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+#kursjs{
+    width: 368px;
+    height: 630px;
+    position: absolute;
+    top:6200px;
+    left:1000px;
+    border-radius: 20px;
+    border-style: none;
+    border-color: #24252B;
+    border-radius: 20px;
+    background-color: #24252B;
+}
+#kursjs1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+    color: white;
+    position: relative;
+    top:20px;
+}
+#kursjszdj{
+    position: relative;
+    left:100px;
+    top:35px;
+}
+#kursjs2{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    position:relative;
+    top:23px;
+}
+#button3{
+    position: absolute;
+    left: 115px;
+    top:530px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: olivedrab;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+#kursphp{
+    width: 368px;
+    height: 630px;
+    position: absolute;
+    top:6200px;
+    left:1400px;
+    border-radius: 20px;
+    border-style: none;
+    border-color: #24252B;
+    border-radius: 20px;
+    background-color: #24252B;
+}
+#kursphp1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+    color: white;
+    position: relative;
+    top:20px;
+}
+#kursphpzdj{
+    position: relative;
+    left:100px;
+    top:35px;
+}
+#kursphp2{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    position:relative;
+    top:23px;
+}
+#button4{
+    position: absolute;
+    left: 115px;
+    top:530px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: olivedrab;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+#pasek2{
+    width: 100%;
+    height: 200px;
+    background-color:#24252B;
+    position: absolute;
+    top:5800px;
+    left:0px;
+}
+#pytania{
+    max-width: 970px;
+    margin: 0 auto;
+    position: relative;
+    top:7000px;
+}
+#pytania1{
+    margin-top: 45px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+}
+#pytania2115{
+    border: 1px solid #dce0e8;
+    border-radius: 6px;
+    padding: 24px 20px;
+    margin-bottom: 12px;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+}
+#pytanieopening{
+    font-size: 22px;
+    position: absolute;
+    top: 18px;
+    right: 24px;
+    font-weight: 700;
+}
+details[open] #pytaniasrodek{
+    top: 18px;
+    right: 24px;
+}
+details > summary {
+    list-style: none;
+}
+details[open] summary {
+    color: olivedrab;
+    font-weight: 500;
+}
+details[open] #pytaniasrodek {
+    display: inline-block;
+    padding-top: 8px;
+    color: #8b8b9a;
+}
+#pytaniakoniec{
+    text-align: center;
+    color: #8b8b9a;
+}
+#stopka{
+    width: 100%;
+    height: 550px;
+    background-color: #24252B;
+    position: absolute;
+    top:7900px;
+}
+#kusrprogramowania1{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top:75px;
+    margin-left: 200px;
+    color: whitesmoke;
+}
+#a1{
+    color:whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top:175px;
+    left:250px;
+}
+#a1:hover{
+    letter-spacing: 0.5px;
+    color: olivedrab;
+}
+#a2{
+    color:whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top:225px;
+    left:250px;
+}
+#a2:hover{
+    letter-spacing: 0.5px;
+    color: olivedrab;
+}
+#a3{
+    color:whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top:275px;
+    left:250px;
+}
+#a3:hover{
+    letter-spacing: 0.5px;
+    color: olivedrab;
+}
+#a4{
+    color:whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top:325px;
+    left:250px;
+}
+#a4:hover{
+    letter-spacing: 0.5px;
+    color: olivedrab;
+}
+#kontakt1{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top:75px;
+    margin-left:650px;
+    color: whitesmoke;
+}
+#naszafirma{
+    position:relative;
+    top: 75px;
+    margin-left: 600px;
+    font-size: 20px;
+    color:whitesmoke;
+    font-weight: bold;
+}
+#a5{
+    position: absolute;
+    top:225px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-weight: bold;
+    color:whitesmoke;
+    text-decoration: none;
+}
+#a5:hover{
+    letter-spacing: 0.5px;
+    color: olivedrab;
+}
+#a6{
+    position: absolute;
+    top:275px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-weight: bold;
+    color:whitesmoke;
+    text-decoration: none;
+}
+#a6:hover{
+    letter-spacing: 0.5px;
+    color: olivedrab;
+}
+#a7{
+    position: absolute;
+    top:325px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-weight: bold;
+    color:whitesmoke;
+    text-decoration: none;
+}
+#a7:hover{
+    letter-spacing: 0.5px;
+    color: olivedrab;
+}
+#informacje21{
+    position:relative;
+    top: 28px;
+    margin-left: 1100px;
+    font-size: 20px;
+    color:whitesmoke;
+    font-weight: bold;
+}
+#p7{
+    position:relative;
+    top: 248px;
+    margin-left: 250px;
+    font-size: 20px;
+    color:whitesmoke;
+    font-weight: bold;
+}
+#p8{
+    position:relative;
+    top: 200px;
+    margin-left: 600px;
+    font-size: 20px;
+    color:whitesmoke;
+    font-weight: bold;
+}
+#mapa{
+    position: absolute;
+    top:90px;
+    right: 200px;
+}
+#tlo7{
+    width: 650px;
+    height: 400px;
+    background-color: olivedrab;
+    position: absolute;  
+    top:65px;
+    right: 175px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
